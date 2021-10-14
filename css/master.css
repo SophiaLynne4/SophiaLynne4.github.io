@@ -1,0 +1,47 @@
+#image {
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+
+#background {
+background-color: #F3F0F2;
+}
+
+h1 {
+color: #87949F;
+text-align: center;
+}
+
+h2 {
+color: #87949F;
+}
+
+h3 {
+color: #87949F;
+}
+
+h4 {
+color: #87949F;
+}
+
+h5 {
+color: #87949F;
+text-align: center;
+}
+
+hr {
+height: 1px;
+background-color: #C7B7A8;
+border: none;
+}
+
+a:link {
+color:black;
+
+}
+
+#line {
+color: #B5BDC7;
+
+}
