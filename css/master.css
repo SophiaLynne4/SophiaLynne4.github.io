@@ -2,7 +2,6 @@
 display: block;
 margin-left: auto;
 margin-right: auto
-
 }
 
 #background {
@@ -39,12 +38,10 @@ border: none;
 
 a:link {
 color:black;
-
 }
 
 #line {
 color: #B5BDC7;
-
 }
 
 ul {
