@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poiret+One&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Josefin Sans", "arial", sans-serif;
+}
+
+body {
+  background-color: #F5F2F5;
+}
+
+/* changed CSS to match class instead of semantic tag -- breaks up the header into two tags.  */
+.main_header {
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
+}
+
+nav {
+  color:#7B8B8F;
+  overflow: auto;
+
+}
+
+main {
+  color: #BFAEA1;
+}
+
+footer {
+  background-color: #7B8B8F;
+  font-family: "Poiret One", "arial", sans-serif;
+}
+
+
+#logo_img {
+  width:100%;
+  display: inline-block;
+
+}
+/* added box-sizing:border-box; to allow the items to fit perfectly */
+.header_left {
+  display: flex;
+  width: 15%;
+  box-sizing: border-box;
+
+}
+/* Exteded width % to add up to 100% - fills header content area */
+.header_right {
+  display: flex;
+  width:85%;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+/* should work regardless of semantic tag */
+.header_center {
+  color:#7B8B8F;
+  margin: 50px;
+  text-align: center;
+}
+
+main h3 {
+  text-align: center;
+}
+
+.nav_ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.nav_ul li {
+  display: inline-block;
+  padding: 8px;
+}
+
+.nav_ul a {
+  color:#7B8B8F;
+  text-decoration: none;
+}
+
+.nav_ul a:hover {
+
+}
+
+
+.footer_left ul {
+  list-style-type: none;
+}
+
+.footer_left a {
+  text-decoration: none;
+  color: #D9C7BA;
+}
+
+.footer_right ul {
+  list-style-type: none;
+}
+
+.footer_right a {
+  text-decoration: none;
+  color: #D9C7BA;
+}
