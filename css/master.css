@@ -20,12 +20,13 @@ nav {
 }
 
 main {
-  
+
 }
 
 footer {
   background-color: #7B8B8F;
-  font-family: "Poiret One", "Josefin Sans", "Arial", sans-serif;
+  font-family: "Josefin Sans", "Poiret One", "Arial", sans-serif;
+  font-weight: 200;
   overflow: auto;
   font-size: 10pt;
 }
@@ -58,6 +59,7 @@ footer {
 
 .header_center h3 {
   color: #BFAEA1;
+  font-family: "Poiret One", "Josefin Sans", "Arial", sans-serif;
 }
 
 .header_center h1 {
