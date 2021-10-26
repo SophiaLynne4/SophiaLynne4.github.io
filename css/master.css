@@ -28,7 +28,7 @@ main {
 
 footer {
   background-color: #7B8B8F;
-  font-family: "Josefin Sans", "arial", sans-serif;
+  font-family: "Poiret One", "arial", sans-serif;
   overflow: auto;
   font-size: 10pt;
 }
@@ -97,6 +97,8 @@ footer {
 .footer_left {
   display: inline-block;
   float:left;
+  width: 25%;
+  box-sizing: border-box;
 }
 
 .footer_left ul {
@@ -110,6 +112,14 @@ footer {
 .footer_right {
   display: inline-block;
   float: right;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.footer_center {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .footer_left a {
