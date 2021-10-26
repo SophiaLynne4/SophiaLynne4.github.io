@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poiret+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 * {
   margin: 0;
   font-family: "Josefin Sans", "arial", sans-serif;
@@ -23,12 +23,14 @@ nav {
 }
 
 main {
-  color: #BFAEA1;
+
 }
 
 footer {
   background-color: #7B8B8F;
-  font-family: "Poiret One", "arial", sans-serif;
+  font-family: "Josefin Sans", "arial", sans-serif;
+  overflow: auto;
+  font-size: 10pt;
 }
 
 
@@ -55,13 +57,17 @@ footer {
 
 /* should work regardless of semantic tag */
 .header_center {
-  color:#7B8B8F;
-  margin: 50px;
   text-align: center;
 }
 
-main h3 {
-  text-align: center;
+.header_center h3 {
+  color: #BFAEA1;
+}
+
+.header_center h1 {
+  color: #7B8B8F;
+  font-family: "Amatic SC", "Poiret One", "arial", sans-serif;
+  font-size: 60pt;
 }
 
 .nav_ul {
@@ -80,12 +86,30 @@ main h3 {
 }
 
 .nav_ul a:hover {
+  text-decoration: underline;
+  color: #D9C7BA;
+}
+
+.content {
 
 }
 
+.footer_left {
+  display: inline-block;
+  float:left;
+}
 
 .footer_left ul {
   list-style-type: none;
+  text-align: left;
+  padding-left: 0;
+  line-height: 2.2;
+  margin-left: 10px;
+}
+
+.footer_right {
+  display: inline-block;
+  float: right;
 }
 
 .footer_left a {
@@ -95,9 +119,24 @@ main h3 {
 
 .footer_right ul {
   list-style-type: none;
+  text-align: right;
+  line-height: 2.2;
+  margin-right: 10px;
 }
 
 .footer_right a {
   text-decoration: none;
   color: #D9C7BA;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#bye {
+  color:#B0BCC2;
+  text-align: center;
+  margin: auto;
+  font-family: "Amatic SC", "Poiret One", "arial", sans-serif;
+  font-size: 25pt;
 }
