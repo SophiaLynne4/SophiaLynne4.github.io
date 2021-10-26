@@ -144,9 +144,14 @@ footer a:hover {
 }
 
 #bye {
-  color:#B0BCC2;
+  color:#F5F2F5;
   text-align: center;
   margin: auto;
   font-family: "Amatic SC", "Poiret One", "arial", sans-serif;
   font-size: 25pt;
+}
+
+.footer_center p {
+  text-align: center;
+  color:#B0BCC2;
 }
