@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 * {
   margin: 0;
-  font-family: "Josefin Sans", "arial", sans-serif;
 }
 
 body {
@@ -17,18 +16,16 @@ body {
 }
 
 nav {
-  color:#7B8B8F;
   overflow: auto;
-
 }
 
 main {
-
+  
 }
 
 footer {
   background-color: #7B8B8F;
-  font-family: "Poiret One", "arial", sans-serif;
+  font-family: "Poiret One", "Josefin Sans", "Arial", sans-serif;
   overflow: auto;
   font-size: 10pt;
 }
@@ -44,7 +41,6 @@ footer {
   display: flex;
   width: 15%;
   box-sizing: border-box;
-
 }
 /* Exteded width % to add up to 100% - fills header content area */
 .header_right {
@@ -73,6 +69,7 @@ footer {
 .nav_ul {
   list-style-type: none;
   padding-left: 0px;
+  font-family: "Poiret One", "Josefin Sans", "Arial", sans-serif;
 }
 
 .nav_ul li {
@@ -120,6 +117,7 @@ footer {
   float: left;
   width: 50%;
   box-sizing: border-box;
+  margin-top: 30px;
 }
 
 .footer_left a {
