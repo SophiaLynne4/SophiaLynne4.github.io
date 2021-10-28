@@ -20,7 +20,7 @@ nav {
 }
 
 main {
-
+  height: 300px;
 }
 
 footer {
@@ -72,6 +72,7 @@ footer {
   list-style-type: none;
   padding-left: 0px;
   font-family: "Poiret One", "Josefin Sans", "Arial", sans-serif;
+  font-weight: bolder;
 }
 
 .nav_ul li {
@@ -127,6 +128,11 @@ footer {
   color: #D9C7BA;
 }
 
+.footer_left img {
+  width: 30px;
+
+}
+
 .footer_right ul {
   list-style-type: none;
   text-align: right;
@@ -153,5 +159,5 @@ footer a:hover {
 
 .footer_center p {
   text-align: center;
-  color:#B0BCC2;
+  color: #B0BCC2;
 }
