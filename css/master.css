@@ -8,18 +8,8 @@ body {
   background-color: #F5F2F5;
 }
 
-/* changed CSS to match class instead of semantic tag -- breaks up the header into two tags.  */
-.main_header {
-  padding: 10px;
-  display: flex;
-  justify-content:space-between;
-}
-
 nav {
   overflow: auto;
-}
-
-main {
 }
 
 footer {
@@ -49,6 +39,13 @@ footer {
   align-items: center;
   justify-content: flex-end;
   box-sizing: border-box;
+}
+
+/* changed CSS to match class instead of semantic tag -- breaks up the header into two tags.  */
+.main_header {
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
 }
 
 /* should work regardless of semantic tag */
@@ -93,18 +90,6 @@ footer {
 
 }
 
-.grid_container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  padding:auto;
-  margin:50px 0px 5px 0px;
-}
-
-.grid_img {
-  width: 100%;
-}
 
 .footer_left {
   display: inline-block;

@@ -1,0 +1,19 @@
+/* changed CSS to match class instead of semantic tag -- breaks up the header into two tags.  */
+.main_header {
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding:auto;
+  margin:50px 0px 5px 0px;
+}
+
+.grid_img {
+  width: 100%;
+}
