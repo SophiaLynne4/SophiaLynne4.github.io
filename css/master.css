@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F5F2F5;
+  background-color: #F5F2F5; /* off white */
 }
 
 nav {
@@ -13,7 +13,7 @@ nav {
 }
 
 footer {
-  background-color: #7B8B8F;
+  background-color: #7B8B8F; /*darker green */
   font-family: "Josefin Sans", "Poiret One", "Arial", sans-serif;
   font-weight: 200;
   overflow: auto;
@@ -122,7 +122,7 @@ footer {
 
 .footer_left a {
   text-decoration: none;
-  color: #D9C7BA;
+  color: #D9C7BA; /* tan */
 }
 
 .footer_left img {
@@ -156,5 +156,5 @@ footer a:hover {
 
 .footer_center p {
   text-align: center;
-  color: #B0BCC2;
+  color: #B0BCC2; /* lighter green */
 }
