@@ -36,3 +36,7 @@ color: #D9C7BA;
 .grid_img {
   width: 100%;
 }
+
+.chosen {
+  text-decoration: underline;
+}
