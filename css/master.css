@@ -130,12 +130,18 @@ footer {
 
 }
 
+.footer_left ul li {
+  display: flex;
+  align-items: center;
+}
+
 .footer_right ul {
   list-style-type: none;
   text-align: right;
   line-height: 2.2;
   margin-right: 10px;
 }
+
 
 .footer_right a {
   text-decoration: none;
