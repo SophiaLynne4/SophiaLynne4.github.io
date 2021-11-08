@@ -13,7 +13,7 @@ nav {
 }
 
 footer {
-  background-color: #7B8B8F; /*darker green */
+  background-color: #637073; /*darker green */
   font-family: "Josefin Sans", "Poiret One", "Arial", sans-serif;
   font-weight: 200;
   overflow: auto;
@@ -22,7 +22,7 @@ footer {
 
 
 .logo_img {
-  width:100%;
+  width:50%;
   display: inline-block;
 
 }
@@ -54,12 +54,12 @@ footer {
 }
 
 .header_center h3 {
-  color: #BFAEA1;
+  color: #9C878A;
   font-family: "Poiret One", "Josefin Sans", "Arial", sans-serif;
 }
 
 .header_center h1 {
-  color: #7B8B8F;
+  color: #637073;
   font-family: "Amatic SC", "Poiret One", "arial", sans-serif;
   font-size: 60pt;
 }
@@ -77,13 +77,13 @@ footer {
 }
 
 .nav_ul a {
-  color:#7B8B8F;
+  color:#637073;
   text-decoration: none;
 }
 
 .nav_ul a:hover {
-  text-decoration: underline;
-  color: #D9C7BA;
+  color: #9C878A; /* tan */
+  font-style: italic;
 }
 
 .content {
@@ -122,7 +122,7 @@ footer {
 
 .footer_left a {
   text-decoration: none;
-  color: #D9C7BA; /* tan */
+  color: #F5F2F5;
 }
 
 .footer_left img {
@@ -145,11 +145,11 @@ footer {
 
 .footer_right a {
   text-decoration: none;
-  color: #D9C7BA;
+  color: #F5F2F5;
 }
 
 footer a:hover {
-  text-decoration: underline;
+  font-style: italic;
 }
 
 #bye {
@@ -162,5 +162,5 @@ footer a:hover {
 
 .footer_center p {
   text-align: center;
-  color: #B0BCC2; /* lighter green */
+  color: #BECBD1; /* lighter green */
 }

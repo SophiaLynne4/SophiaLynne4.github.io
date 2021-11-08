@@ -1,3 +1,25 @@
-.content {
-  height: 300px;
+.me {
+  width: 50%;
+  margin: auto 30px auto auto;
+}
+
+.photo_me {
+  width: 20%;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.about_me {
+  margin:100px auto 100px auto;;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+main h1 {
+  color: #637073;
+  font-family: "Amatic SC", "Poiret One", "arial", sans-serif;
+  font-size: 60pt;
+  text-align: center;
 }

@@ -16,12 +16,12 @@
 }
 
 .port_ul a {
-  color:#B0BCC2;
+  color:#9C878A;
   text-decoration: none;
 }
 
 .port_ul a:hover {
-color: #D9C7BA;
+  font-style: italic;
 }
 
 .grid_container {
@@ -30,7 +30,7 @@ color: #D9C7BA;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   padding:auto;
-  margin:50px 0px 5px 0px;
+  margin:50px 30px 5px 30px;
 }
 
 .grid_img {
