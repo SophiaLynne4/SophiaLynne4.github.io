@@ -53,9 +53,10 @@ footer {
   text-align: center;
 }
 
-.header_center h3 {
+.header_center h2 {
   color: #9C878A;
   font-family: "Poiret One", "Josefin Sans", "Arial", sans-serif;
+  font-size: 15pt;
 }
 
 .header_center h1 {

@@ -1,6 +1,8 @@
 .me {
   width: 50%;
   margin: auto 30px auto auto;
+  font-family: "Josefin Sans", "Poiret One", "Arial", sans-serif;
+  line-height: 25px;
 }
 
 .photo_me {

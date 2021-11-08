@@ -1,0 +1,20 @@
+form {
+  display: block;
+  width: 50%;
+  margin:auto auto 40px auto;
+  padding: 30px;;
+  border: 2px solid #9C878A;
+}
+
+main h1 {
+  color: #637073;
+  font-family: "Amatic SC", "Poiret One", "arial", sans-serif;
+  font-size: 60pt;
+  text-align: center;
+}
+
+main p {
+  margin: 30px;
+  font-family: "Josefin Sans", "Poiret One", "Arial", sans-serif;
+  line-height: 25px;
+}
