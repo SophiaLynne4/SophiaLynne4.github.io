@@ -1,7 +1,8 @@
 form {
   display: block;
+  max-width: 400px;
   width: 50%;
-  margin:auto auto 40px auto;
+  margin:auto auto 30px auto;
   padding: 30px;;
   border: 2px solid #9C878A;
 }
@@ -17,4 +18,12 @@ main p {
   margin: 30px;
   font-family: "Josefin Sans", "Poiret One", "Arial", sans-serif;
   line-height: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-decoration: underline;
 }
