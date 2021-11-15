@@ -1,6 +1,6 @@
 .me {
   width: 50%;
-  margin: auto 30px auto auto;
+  margin: auto 100px auto auto;
   font-family: "Josefin Sans", "Poiret One", "Arial", sans-serif;
   line-height: 25px;
   text-align: center;
@@ -9,11 +9,11 @@
 .photo_me {
   width: 20%;
   display: inline-block;
-  margin-left: 30px;
+  margin: 100px;
 }
 
 .about_me {
-  margin:100px auto 100px auto;;
+  margin:10px auto 100px auto;;
   display: flex;
   align-items: center;
   overflow: hidden;
