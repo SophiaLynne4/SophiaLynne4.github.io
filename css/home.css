@@ -17,3 +17,29 @@
 .grid_img {
   width: 100%;
 }
+
+/* phone */
+
+@media only screen and (max-width: 720px) {
+
+  .main_header {
+    padding: 10px;
+    display: block;
+    justify-content:space-between;
+  }
+
+  .header_center {
+    margin-top: 50px;
+  }
+
+  .grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding:auto;
+    margin:50px 0px 30px 0px;
+  }
+
+
+}

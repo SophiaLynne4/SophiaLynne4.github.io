@@ -25,7 +25,6 @@ footer {
 .logo_img {
   width:50%;
   display: inline-block;
-
 }
 /* added box-sizing:border-box; to allow the items to fit perfectly */
 .header_left {
@@ -130,7 +129,6 @@ footer {
 .footer_left img {
   width: 15px;
   padding:5px;
-
 }
 
 .footer_left ul li {
@@ -166,4 +164,114 @@ footer a:hover {
 .footer_center p {
   text-align: center;
   color: #F5F2F5;
+}
+
+
+/* Phone Screen CSS */
+
+@media only screen and (max-width: 720px) {
+  .logo_img {
+    width:25%;
+    display: block;
+    margin: auto;
+    }
+
+  .header_left {
+    display: inline;
+    width: 100%;
+    margin: 50px;
+  }
+
+  .header_right {
+    display: block;
+    margin: auto;
+    padding: 0;
+    width:100%;
+  }
+
+  .main_header {
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    width:100%;
+  }
+
+  .nav_ul {
+    list-style-type: none;
+    font-family: "Poiret One", "Josefin Sans", "Arial", sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .nav_ul li {
+    display: inline;
+    padding: 8px;
+    text-align:center;
+  }
+
+  .footer_left {
+    display: inline;
+    float:left;
+    width: 25%;
+    /* box-sizing: border-box; */
+  }
+
+  .footer_left ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 10px;
+  }
+
+  .footer_right {
+    display: inline;
+    float: right;
+    width: 25%;
+    box-sizing: border-box;
+  }
+
+  .footer_center {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }
+
+  .footer_left a {
+    text-decoration: none;
+    color: #F5F2F5;
+  }
+
+  .footer_left img {
+    width: 15px;
+    padding:5px;
+    display: none;
+  }
+
+  .footer_left ul li {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer_right ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 10px;
+  }
+
+
+  .footer_right a {
+    text-decoration: none;
+    color: #F5F2F5;
+  }
+
+
+
+  /* footer {
+    display: none;
+    background-color: #637073;
+  } */
 }

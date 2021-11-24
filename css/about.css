@@ -17,7 +17,6 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-
 }
 
 main h1 {
@@ -29,4 +28,27 @@ main h1 {
 
 h1 {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 720px) {
+
+  .about_me {
+    margin: auto;
+    display: inline-block;
+    align-items: center;
+  }
+
+  .photo_me {
+    display: block;
+    width:40%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .me {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 0 50px 0;
+    width: 90%;
+  }
 }

@@ -40,3 +40,15 @@
 .chosen {
   text-decoration: underline;
 }
+
+
+@media only screen and (max-width: 720px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding:auto;
+    margin:50px 0px 30px 0px;
+  }
+}
