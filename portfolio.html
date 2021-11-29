@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/master.css">
     <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="/js/java.js">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Sophia Lynne Illustrations</title>
@@ -13,15 +16,15 @@
 <!-- header -->
       <header class="main_header">
         <div class="header_left">
-          <a href="./index.html"><img class="logo_img" src="./assets/dev/transparent_logo.png" alt="logo image click for home"</a>
+          <div data-aos="flip-left"><a href="./index.html"><img class="logo_img" src="./assets/dev/transparent_logo.png" alt="logo image click for home"</a></div>
         </div>
 <!-- nav -->
         <div class="header_right">
           <ul class="nav_ul">
-            <li><a href="./index.html">HOME</a></li>
+            <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="300"><li><a href="./index.html">HOME</a></li>
             <li><a href="#">PORTFOLIO</a></li>
             <li><a href="./about.html">ABOUT ME</a></li>
-            <li><a href="./contact.html">CONTACT ME</a></li>
+            <li><a href="./contact.html">CONTACT ME</a></li></div>
           </ul>
         </div>
       </header>
@@ -32,9 +35,9 @@
       <br><br><br>
       <div class="port_options">
           <ul class="port_ul">
-            <li class="chosen"><a href="#">digital art<a></li>
+            <div data-aos="fade-up" data-aos-delay="1000"><li class="chosen"><a href="#">digital art<a></li>
             <li><a href="./traditional.html">traditional art<a></li>
-            <li><a href="#">animations<a></li>
+            <!-- <li><a href="#">animations<a></li></div> -->
           </ul>
 
 
@@ -70,11 +73,7 @@
         </ul>
       </section>
 
-      <section class="footer_center">
-        <h2 id="bye">Thank you so much for visiting!</h2>
-        <br><br>
-        <p>&copy; Sophia Lynne Illustrations</p>
-      </section>
+
 
       <section class="footer_right">
         <ul>
@@ -85,7 +84,15 @@
         </ul>
       </section>
 
-
+      <section class="footer_center">
+        <h2 id="bye">Thank you so much for visiting!</h2>
+        <br><br>
+        <p>&copy; Sophia Lynne Illustrations</p>
+      </section>
+      
     </footer>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
