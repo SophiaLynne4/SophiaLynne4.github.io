@@ -210,7 +210,6 @@ footer a:hover {
   footer {
     display: flex;
     flex-wrap: wrap;
-
   }
 
   .footer_left {
@@ -265,11 +264,16 @@ footer a:hover {
     margin:auto;
   }
 
-
   #bye {
     display: none;
   }
 
+  #c {
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    color: white;
+  }
   }
 
 
