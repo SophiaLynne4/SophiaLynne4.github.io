@@ -2,23 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 * {
   margin: 0;
-  overflow: auto;
 }
 
 body {
   background-color: #F5F2F5; /* off white */
-  overflow: hidden;
 }
 
 nav {
-  overflow: auto;
 }
 
 footer {
   background-color: #637073; /*darker green */
   font-family: "Josefin Sans", "Poiret One", "Arial", sans-serif;
   font-weight: 200;
-  overflow: auto;
   font-size: 10pt;
   padding: 20px;
 }
@@ -111,9 +107,7 @@ footer {
 
 .footer_right {
   display: inline-block;
-  float: right;
   width: 25%;
-  box-sizing: border-box;
 }
 
 .footer_center {
@@ -133,7 +127,7 @@ footer {
   padding:5px;
 }
 
-.footer_left ul li {
+.footer_left li {
   display: flex;
   align-items: center;
 }
@@ -142,7 +136,6 @@ footer {
   list-style-type: none;
   text-align: right;
   line-height: 2.2;
-  margin-right: 10px;
 }
 
 
@@ -215,7 +208,6 @@ footer a:hover {
   }
 
   footer {
-    overflow: auto;
     display: flex;
     flex-wrap: wrap;
 
@@ -226,6 +218,7 @@ footer a:hover {
     width: 100%;
     margin:auto;
     box-sizing: border-box;
+    margin-bottom: 20px;
   }
 
   footer img {
@@ -236,49 +229,46 @@ footer a:hover {
     list-style-type: none;
     display: flex;
     text-align: center;
-    margin: auto;
-    width:100%;
+    width:auto;
   }
 
   .footer_left li {
     display: inline;
     width: 100%;
-    justify-content: center;
   }
 
   .footer_right {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: block;
+    float: none;
     width: 100%;
+    box-sizing: border-box;
   }
 
   .footer_right ul {
     list-style-type: none;
-    display: inline-block;
+    display: flex;
     text-align: center;
-    margin: auto;
-    width:100%;
-    border: 2px solid purple;
+    width:auto;
+    padding: 0;
+    margin: 0;
+
 }
 
   .footer_right li {
-    display: inline;
+    display: block;
     width: 100%;
-    margin: auto;
   }
 
   .footer_center {
-    display: flex;
+    display: block;
+    text-align: center;
+    margin:auto;
   }
 
 
   #bye {
     display: none;
   }
-
-  #c {
-    display:block;
 
   }
 
