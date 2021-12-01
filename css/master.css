@@ -156,9 +156,12 @@ footer a:hover {
   font-size: 25pt;
 }
 
-.footer_center p {
+#c {
+  display: block;
+  margin:auto;
   text-align: center;
-  color: #F5F2F5;
+  margin-top: 20px;
+  color: white;
 }
 
 
