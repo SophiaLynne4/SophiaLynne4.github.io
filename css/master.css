@@ -262,7 +262,7 @@ footer a:hover {
   }
 
   .footer_center {
-    display: block;
+    display: none;
     text-align: center;
     margin:auto;
   }
@@ -270,6 +270,15 @@ footer a:hover {
   #bye {
     display: none;
   }
+
+  #c {
+    display: block;
+    margin:auto;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+
 
   }
 
