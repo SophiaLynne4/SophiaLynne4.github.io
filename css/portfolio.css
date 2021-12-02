@@ -1,3 +1,7 @@
+p {
+  color: white;
+}
+
 .port_options {
   list-style-type: none;
   padding-left: 0px;
@@ -40,6 +44,15 @@
 .chosen {
   text-decoration: underline;
 }
+
+#c {
+  display: block;
+  margin:auto;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
 
 
 @media only screen and (max-width: 720px) {
