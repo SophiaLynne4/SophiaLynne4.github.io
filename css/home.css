@@ -25,6 +25,13 @@
   margin-top: 20px;
   color: white;
 }
+ #link {
+   color:#637073;
+   text-decoration: none;
+ }
+ #link:hover {
+   font-style: italic;
+}
 
 
 /* phone */
