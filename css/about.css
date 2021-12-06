@@ -4,12 +4,15 @@
   font-family: "Josefin Sans", "Poiret One", "Arial", sans-serif;
   line-height: 25px;
   text-align: center;
+  box-shadow: 2px 2px 2px 2px grey;
+  padding: 1%;
 }
 
 .photo_me {
   width: 20%;
   display: inline-block;
   margin: 100px;
+  box-shadow: 2px 2px 2px 2px grey;
 }
 
 .about_me {
@@ -50,14 +53,15 @@ h1 {
   .photo_me {
     display: block;
     width:40%;
-    margin: auto;
-    padding: 20px;
+    margin: 80px auto;
+    padding: 0px;
+    box-shadow: 2px 2px 2px 2px grey;
   }
 
   .me {
     display: block;
     margin: 30px auto;
-    padding: 10px 0 50px 0;
-    width: 90%;
+    padding: 20px;
+    width: 80%;
   }
 }
